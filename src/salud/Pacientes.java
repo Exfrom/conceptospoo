@@ -7,6 +7,10 @@ public class Pacientes {
         Personas paciente1=new Personas();
 
         paciente1.registrardatos();
+        paciente1.mostrarpersona();
+
+        
+        
         
 
        
