@@ -33,7 +33,7 @@ public class Personas {
         System.out.println("El numero de documento es:" +documento);
         System.out.println("La edad del paciente es" +edad);
         System.out.println("El peso del paciente es"+peso);
-        System.out.println("La estatura del paciente es:"+estatura);
+        System.out.println("La estatura del paciente es:" +estatura);
     }
 }
        
