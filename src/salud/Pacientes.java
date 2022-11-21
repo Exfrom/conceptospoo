@@ -6,8 +6,9 @@ public class Pacientes {
         Scanner leer=new Scanner(System.in);
         Personas paciente1=new Personas();
 
-        paciente1.registrardatos();
-        paciente1.mostrarpersona();
+        //paciente1.registrardatos();
+        //paciente1.mostrarpersona();
+        paciente1.calcularlmc();
 
         
         

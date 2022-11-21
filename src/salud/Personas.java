@@ -22,18 +22,27 @@ public class Personas {
         edad=leer.nextInt();
         System.out.println("Ingrese su peso en kilogramos: ");
         peso=leer.nextDouble();
-        System.out.println("Ingrese su estatura en cms: ");
+        System.out.println("Ingrese su estatura en Metros: ");
         estatura=leer.nextDouble();
     }
     public void mostrarpersona(){
-        System.out.println("El nombre del paciente es:" +nombre);
-        System.out.println("El apellido del paciente es:" +apellido);
+        System.out.println("El nombre del paciente es: " +nombre);
+        System.out.println("El apellido del paciente es: " +apellido);
         System.out.println("El genero del paciente es: " +sexo);
-        System.out.println("El tipo de documento del paciente es:" +tipoDoc);
-        System.out.println("El numero de documento es:" +documento);
-        System.out.println("La edad del paciente es" +edad);
-        System.out.println("El peso del paciente es"+peso);
-        System.out.println("La estatura del paciente es:" +estatura);
+        System.out.println("El tipo de documento del paciente es: " +tipoDoc);
+        System.out.println("El numero de documento es: " +documento);
+        System.out.println("La edad del paciente es:  " +edad);
+        System.out.println("El peso del paciente es: "+peso);
+        System.out.println("La estatura del paciente es: " +estatura);
+    }
+    public void calcularlmc(){
+        System.out.println("Ingrese su peso en Kilogramos: ");
+        peso=leer.nextDouble();
+        System.out.println("Ingrese su estatura en Metros: ");
+        estatura=leer.nextDouble();
+        double pesoactual=peso/Math.pow(estatura,2);
+        System.out.println("El peso actual del paciente es: "+pesoactual);
+    
     }
 }
        
