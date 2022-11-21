@@ -1,6 +1,7 @@
 package sena;
-
+import java.util.Scanner;
 public class Aprendiz {
+        Scanner leer =new Scanner(System.in);
         //Atrubutos
         String id;
         //visible en clases package sena
@@ -18,6 +19,7 @@ public class Aprendiz {
                 edad=leer.nextInt();
                 //limpiar buffer
                 leer.nextInt();
+                
                 System.err.println("Ingrese la sede de estudio:");
                 sede=leer.nextLine();
         }

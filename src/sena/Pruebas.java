@@ -7,5 +7,6 @@ public class Pruebas {
         Aprendiz diana=new Aprendiz();
         //invocar metodo
         diana.registrarAnimal();
+        diana.cambiarnombre();
     }
 }
