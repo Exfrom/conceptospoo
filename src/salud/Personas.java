@@ -36,13 +36,39 @@ public class Personas {
         System.out.println("La estatura del paciente es: " +estatura);
     }
     public void calcularlmc(){
-        System.out.println("Ingrese su peso en Kilogramos: ");
-        peso=leer.nextDouble();
-        System.out.println("Ingrese su estatura en Metros: ");
-        estatura=leer.nextDouble();
-        double pesoactual=peso/Math.pow(estatura,2);
-        System.out.println("El peso actual del paciente es: "+pesoactual);
+        System.out.println("El peso del paciente es: "+peso);
+        System.out.println("La estatura del paciente es: " +estatura);
+        double pesoactual=peso/Math.pow(estatura,2d);
+        System.out.println("El peso actual del paciente es: " +pesoactual);
+
+        if(pesoactual<20){
+            System.out.println("El peso actual del paciente esta por debajo de lo ideal");
+        }
+        else if(pesoactual>20 && pesoactual<25){
+            System.out.println("El peso del paciente es IDEAL");
+        }
+        else if(pesoactual>25){
+            System.out.println("EL paciente esta en SOBREPESO");
+        }
+        else{
+            System.out.println("FUEREA DE RANGO");
+        }
+        
+    }
     
+    public void mayorEdad(){
+        System.out.println("La edad del paciente es:  " +edad);
+
+        if(edad<18){ 
+            System.out.println("El paciente es MENOR DE EDAD");
+        }
+        else if(edad>18 && edad<120){
+            System.out.println("El paciente es MAYOR DE EDAD");
+        }
+        else{
+            System.out.println("FUERA DE RANGO");
+        }
+        
     }
 }
        
