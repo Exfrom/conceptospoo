@@ -42,7 +42,7 @@ public class Carizellazo implements Juego{
             System.out.println("Cayo sello, seleccionaste sello....Ganaste!!!" +nombre);
         }
         else if(moneda==2 && eleccion==1){
-            System.out.println("Cayo sello, seleccionaste cara....Perdiste!!!" +nombre);
+            System.out.println("Cayo sello, seleccionaste cara....Perdiste!!!"  +nombre);
         }
         
     }
