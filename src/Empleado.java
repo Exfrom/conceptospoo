@@ -1,3 +1,4 @@
+//relacion herencia
 public class Empleado extends Usuario{
     private int idEmpleado;
     private String numeroEmpleado;
@@ -6,5 +7,5 @@ public class Empleado extends Usuario{
     private int telefonoEmpleado;
     private String cargoEmpleado;
 
-    private Usuario usuario;
+    
 }
