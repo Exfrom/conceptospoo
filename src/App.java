@@ -13,6 +13,11 @@ public class App {
         diana.cambiarnombre();
         
 
+        //crear objeto
+        Sede fontibon=new Sede();
+
+        Sede calle52=new Sede();
+
         
     }
 }
