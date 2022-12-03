@@ -1,5 +1,5 @@
-package salud;
-
+ package salud;
+//RETO3
 import java.util.Scanner;
 
 public class personaRegistro {
@@ -29,9 +29,9 @@ public class personaRegistro {
     public void mostrarPersona(String nombre){
         
         if(nombre.equalsIgnoreCase(nombre)){
-            System.out.println("El paciente " +nombre+ " " +apellido+ "identificado con " +tipoDoc+
-            " numero " +documento+", con"  +edad+  " años de edad, un peso de "+peso+
-            " kg, una estatura de " +estatura+ " metros, y de genero" +genero);
+            System.out.println("El paciente " +nombre+ " " +apellido+ " identificado con " +tipoDoc+
+            " numero " +documento+", con "  +edad+  " años de edad, un peso de "+peso+
+            " kg, una estatura de " +estatura+ " metros, y de genero " +genero);
             
             
         }

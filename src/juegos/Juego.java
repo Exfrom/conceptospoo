@@ -1,4 +1,4 @@
-package abstraccion;
+package juegos;
 
 public interface Juego {
     void iniciar();

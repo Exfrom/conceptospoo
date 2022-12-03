@@ -1,5 +1,5 @@
 package abstraccion;
-
+//Reto 5
 public class Rectangulo extends Figura {
     private float base;
     private float altura;

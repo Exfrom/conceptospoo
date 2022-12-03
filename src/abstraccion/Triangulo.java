@@ -1,5 +1,5 @@
 package abstraccion;
-
+//Reto 5
 public class Triangulo extends Figura{
     //atributos
     private float base;

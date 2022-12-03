@@ -1,6 +1,6 @@
 package abstraccion;
 import java.util.Scanner;
-
+//Reto 5
 public class prueba {
     /**
      * @param args
@@ -30,6 +30,7 @@ public class prueba {
                 altura=leer.nextFloat();
                 area=base*altura/2;
                 System.out.println("El area del Triangulo es:  " +area);
+                break;
             case 3:
             Rectangulo r1=new Rectangulo();
                 System.out.println("Ingrese la base del Rectangulo: ");
@@ -38,6 +39,7 @@ public class prueba {
                 altura=leer.nextFloat();
                 area=base*altura/2;
                 System.out.println("El area del Rectangulo es:  " +area);
+                break;
             case 4:
             Circulo cir1=new Circulo();
                 System.out.println("Ingrese el radio del circulo: ");

@@ -1,5 +1,6 @@
 package salud;
 import java.util.Scanner;
+//RETO1
 public class Personas {
     Scanner leer=new Scanner(System.in);
     //atributos

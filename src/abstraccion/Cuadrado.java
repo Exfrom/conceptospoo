@@ -1,5 +1,5 @@
 package abstraccion;
-
+//Reto 5
 public class Cuadrado extends Figura{
     //Atributos
     private float lado;

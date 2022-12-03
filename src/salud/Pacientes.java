@@ -1,6 +1,6 @@
 package salud;
 import java.util.Scanner;
-
+//RETO1
 
 public class Pacientes {
     public static void main(String[] args) {
