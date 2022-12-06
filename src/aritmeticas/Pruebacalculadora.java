@@ -1,6 +1,6 @@
 package aritmeticas;
 import java.util.Scanner;
-import aritmeticas.Calculadora;
+
 public class Pruebacalculadora {
     public static void main(String[] args) {
     Scanner entrada =new Scanner(System.in);
@@ -19,9 +19,5 @@ public class Pruebacalculadora {
     System.out.println("El numero mayor  es:" +operacion.numeroMayor(operacion.num1, operacion.num2 ));
     entrada.close();
    } 
-
-   
-   
-
 }
  
